@@ -1,0 +1,32 @@
+Michael Osorio and Mat Cortez
+
+def main(NameOfFile)
+'''This will get the program so start automatically and will ask the user what
+text  file they want compressed.  This function will also read the file as well as count how many times
+a specific character occurs in the file.'''
+
+def createHuffmanTree(ListofCharacters/frequncies)
+'''For every left branch that is created the program outputs a 0 and when a right branch
+is created a 1 will be assigned.'''
+
+def HuffEncode(createHuffmanTree,  textfile):
+'''This function will search through the file and find each character in order from the Huffman tree
+and use the prefix code to encode the text file.  this will create a long string of binary representing
+the symbols in the text file.'''
+
+def dictOverload(lst):
+'''This function will pack 8 bits at a time into a character by using the chr and ord
+functions and by splicing the string to find the value of every part of the binary string of symbols.'''
+
+def newFileSave(HuffEncode):
+'''This function takes in the dictionary overhead as well as the encoded file and saves it 
+under the same name as the original but with the prefix HUFFMAN added to the end of it.'''
+
+def compressionStats():
+'''This function will first show home many unique characters the original file has, the total number
+of bytes.  Then it will show how many bytes is required to store the dictionary overhead,
+the number of bytes needed to store the compressed, and then the total bytes needed which is the 
+dictionary overhead plus the compressed text.  Then it would show the number of bytes needed for the 
+compressed file divided by the bytes needed for the original file.  It will also show the amount of bytes needed for the compressed file
+minus the dictionary overhead bytes divided by the bytes of the original file.'''
+C:\Users\Class2018\Documents\CS115
